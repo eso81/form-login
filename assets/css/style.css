@@ -126,6 +126,7 @@ body {
 .login-container p a {
     text-decoration: none;
     color: var(--blue-color);
+    font-weight: 600;
 }
 /*________   _________*/
 
