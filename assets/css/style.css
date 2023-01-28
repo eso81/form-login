@@ -3,39 +3,41 @@
 
 /*________  custom property _________*/
 
-:root{
+:root {
     /*typography*/
     --font-poppins: 'Poppins', sans-serif;
 
     /*colors*/
-    --Stromboli-color:#2E5E4E;
-    --bonjour-color:#DBD3D8;
-    --cascade-color:#93A7AA;
-    --hitgray-color:#A7B5B9;
-    --shark-color:#2A2F33;
-    --space-color:#333738;
-    --wood-color:#B18742;
-    --white-color:#fff;
+    --blue-color: #145DA0;
+    --bonjour-color: #DBD3D8;
+    --cascade-color: #93A7AA;
+    --hitgray-color: #A7B5B9;
+    --shark-color: #2A2F33;
+    --space-color: #333738;
+    --wood-color: #B18742;
+    --white-color: #fff;
 
     /**transition*/
-    --transition-01:all .40s ease;
+    --transition-01: all .40s ease;
     --transition-02: all .3s ease-out;
 }
 
 
 /*________  reset _________*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: var(--font-poppins);
     color: var(--bonjour-color);
     background-color: var(--shark-color);
 }
+
 /*________  classe _________*/
-.login-container{
+.login-container {
     background-color: var(--white-color);
     padding: 30px 120px;
     width: 550px;
@@ -45,6 +47,85 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     border-radius: 10px;
+}
+
+.title {
+    color: var(--shark-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.brand {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.login-container button {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid var(--cascade-color);
+    font-weight: 500;
+}
+
+.login-container button img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.login-container .hr-space {
+    border: 0;
+    height: 1px;
+    background-color: var(--hitgray-color);
+    margin: 5px;
+}
+
+.login-container span {
+    display: block;
+    width: 40px;
+    margin: auto;
+    background-color: var(--white-color);
+    font-size: 0.8rem;
+    margin-top: -16px;
+    color: var(--shark-color);
+}
+
+.login-container input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--cascade-color);
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+::placeholder {
+    color: var(--shark-color);
+    font-weight: 500;
+}
+.login-container form button{
+    background-color: var(--shark-color);
+    color:var(--white-color);
+    border: 0;
+    margin-bottom: 15px;
+}
+.login-container p{
+    text-align: left;
+    font-size: 0.9rem;
+    color: var(--space-color);
+    margin: 40px 0 50px;
+}
+.login-container p a {
+    text-decoration: none;
+    color: var(--blue-color);
 }
 /*________   _________*/
 
