@@ -1,0 +1,61 @@
+/*________ google fonts  _________*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*________  custom property _________*/
+
+:root{
+    /*typography*/
+    --font-poppins: 'Poppins', sans-serif;
+
+    /*colors*/
+    --Stromboli-color:#2E5E4E;
+    --bonjour-color:#DBD3D8;
+    --cascade-color:#93A7AA;
+    --hitgray-color:#A7B5B9;
+    --shark-color:#2A2F33;
+    --space-color:#333738;
+    --wood-color:#B18742;
+    --white-color:#fff;
+
+    /**transition*/
+    --transition-01:all .40s ease;
+    --transition-02: all .3s ease-out;
+}
+
+
+/*________  reset _________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-poppins);
+    color: var(--bonjour-color);
+    background-color: var(--shark-color);
+}
+/*________  classe _________*/
+.login-container{
+    background-color: var(--white-color);
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+/*________   _________*/
+
+/*________   _________*/
+
+/*________   _________*/
+
+/*________   _________*/
+
+/*________   _________*/
+
+/*________   _________*/
+
+/*________   _________*/
